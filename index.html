@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kanigiri — Taste of Andhra. Rasakan kekayaan masakan Andhra dengan menu unggulan kami, dari Mutton Biryani hingga Jeera Chawal.">
+  <title>Kanigiri — Taste of Andhra</title>
+  <link rel="preload" as="image" href="assets/images/hero-biryani.jpg" fetchpriority="high">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header-container">
+      <a href="#" class="logo" aria-label="Kanigiri — Taste of Andhra, beranda">
+        <img src="assets/images/logo-kanigiri.svg" alt="Kanigiri — Taste of Andhra" width="180" height="48">
+      </a>
+
+      <div class="header-controls">
+        <a href="tel:+6281234567890" class="btn-phone" aria-label="Hubungi kami melalui telepon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.8 12.8 0 0 1 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.8 12.8 0 0 1 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span class="phone-label">+62 812-3456-7890</span>
+        </a>
+
+        <a href="#member" class="btn-login" aria-label="Login member Kanigiri untuk mendapatkan bonus dan diskon harian">Login</a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Buka navigasi">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <nav class="nav-menu" id="nav-menu" hidden>
+        <ul class="nav-list">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#member">Member</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+          <li><a href="#kebijakan">Kebijakan Retur</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home" aria-label="Menu unggulan: Mutton Biryani">
+      <div class="hero-container">
+        <!-- Gambar hero di kolom kiri (desktop) -->
+        <div class="hero-image">
+          <img
+            src="assets/images/hero-biryani.jpg"
+            alt="Hidangan Mutton Biryani dengan nasi berbumbu, potongan daging, dan daun rempah di atas piring putih"
+            width="800"
+            height="533"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+          >
+        </div>
+
+        <!-- Konten hero di kolom kanan -->
+        <div class="hero-content">
+          <!-- Eyebrow script -->
+          <p class="eyebrow" aria-hidden="true">Mutton</p>
+
+          <!-- H1 -->
+          <h1 class="hero-title">Biryani</h1>
+
+          <!-- Price badge -->
+          <div class="price-badge" aria-label="Harga ₹360, sebelumnya ₹410">
+            <span class="price-label">PRICE</span>
+            <span class="price-current">₹360</span>
+            <span class="price-old">₹410</span>
+          </div>
+
+          <!-- Rating -->
+          <div class="rating-row" aria-label="Rating 4,5 dari 5 berdasarkan 521 ulasan">
+            <div class="stars" aria-hidden="true">
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star filled">★</span>
+              <span class="star half">★</span>
+            </div>
+            <span class="rating-score">4.5</span>
+            <span class="rating-count">(521 ulasan)</span>
+          </div>
+
+          <!-- Deskripsi -->
+          <p class="hero-desc">
+            Nasi berbumbu khas Andhra dengan potongan daging kambing yang empuk, dibumbui rempah asli dan dimasak hingga meresap. Hidangan pilihan untuk pecinta rasa rempah yang kaya.
+          </p>
+
+          <!-- CTA group -->
+          <div class="cta-group">
+            <a href="https://wa.me/6281234567890" class="btn btn-primary" target="_blank" rel="noopener">Order Now</a>
+            <a href="#menu" class="btn btn-secondary">Explore More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pemisah gelombang di bawah hero -->
+      <svg class="wave-bottom" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,40 Q180,0 360,40 T720,40 T1080,40 T1440,40 V60 H0 Z" fill="#FFFFFF"/>
+      </svg>
+    </section>
+
+    <!-- ===== MENU REKOMENDASI ===== -->
+    <section class="menu-recommendations" id="menu" aria-label="Menu rekomendasi">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Menu Rekomendasi</h2>
+          <p class="section-sub">Pilihan favorit pelanggan kami yang selalu laku laris.</p>
+        </div>
+
+        <div class="carousel-wrapper">
+          <button class="carousel-btn carousel-prev" aria-label="Menu sebelumnya" disabled>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="15" y1="18" x2="6" y2="12"/><line x1="15" y1="6" x2="6" y2="12"/></svg>
+          </button>
+
+          <div class="carousel-track" role="region" aria-label="Daftar menu rekomendasi">
+            <article class="menu-card" tabindex="0">
+              <div class="card-image-wrap">
+                <img src="assets/images/menu-jeera-chawal.jpg" alt="Jeera Chawal, nasi putih dengan bumbu jintan" width="600" height="800" loading="lazy">
+                <div class="card-price-badge">
+                  <span class="badge-label">PRICE</span>
+                  <span class="badge-current">₹180</span>
+                  <span class="badge-old">₹200</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <p class="card-eyebrow" aria-hidden="true">Chawal</p>
+                <h3 class="card-name">Jeera Chawal</h3>
+                <div class="card-rating" aria-label="Rating 4.0">
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star empty" aria-hidden="true">☆</span>
+                </div>
+                <p class="card-desc">Nasi putih wangi dengan bumbu jintan putih yang memberikan aroma khas dan rasa ringan.</p>
+                <a href="https://wa.me/6281234567890" class="btn btn-card" target="_blank" rel="noopener">Pesan</a>
+              </div>
+            </article>
+
+            <article class="menu-card" tabindex="0">
+              <div class="card-image-wrap">
+                <img src="assets/images/menu-chicken.jpg" alt="Chicken curry, ayam dengan kuah kental dan rempah" width="600" height="392" loading="lazy">
+                <div class="card-price-badge">
+                  <span class="badge-label">PRICE</span>
+                  <span class="badge-current">₹220</span>
+                  <span class="badge-old">₹260</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <p class="card-eyebrow" aria-hidden="true">Chicken</p>
+                <h3 class="card-name">Chicken Curry</h3>
+                <div class="card-rating" aria-label="Rating 4.2">
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star half" aria-hidden="true">★</span>
+                </div>
+                <p class="card-desc">Ayam kampung yang dimasak dengan bumbu kental dan rempah Andhra, rasa gurih yang menggugah selera.</p>
+                <a href="https://wa.me/6281234567890" class="btn btn-card" target="_blank" rel="noopener">Pesan</a>
+              </div>
+            </article>
+
+            <article class="menu-card" tabindex="0">
+              <div class="card-image-wrap">
+                <img src="assets/images/menu-paneer.jpg" alt="Paneer tikka, keju India dengan bumbu panggang" width="600" height="400" loading="lazy">
+                <div class="card-price-badge">
+                  <span class="badge-label">PRICE</span>
+                  <span class="badge-current">₹200</span>
+                  <span class="badge-old">₹220</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <p class="card-eyebrow" aria-hidden="true">Paneer</p>
+                <h3 class="card-name">Paneer Tikka</h3>
+                <div class="card-rating" aria-label="Rating 4.3">
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                </div>
+                <p class="card-desc">Keju paneer yang dibumbui dan dipanggang dengan rempah pilihan, cocok untuk vegetarian.</p>
+                <a href="https://wa.me/6281234567890" class="btn btn-card" target="_blank" rel="noopener">Pesan</a>
+              </div>
+            </article>
+
+            <article class="menu-card" tabindex="0">
+              <div class="card-image-wrap">
+                <img src="assets/images/menu-mutton-curry.jpg" alt="Mutton curry, daging kambing dengan kuah kental dan rempah" width="600" height="450" loading="lazy">
+                <div class="card-price-badge">
+                  <span class="badge-label">PRICE</span>
+                  <span class="badge-current">₹280</span>
+                  <span class="badge-old">₹320</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <p class="card-eyebrow" aria-hidden="true">Mutton</p>
+                <h3 class="card-name">Mutton Curry</h3>
+                <div class="card-rating" aria-label="Rating 4.4">
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star half" aria-hidden="true">★</span>
+                </div>
+                <p class="card-desc">Daging kambing yang dimasak dengan bumbu kental dan rempah Andhra, rasa gurih dan pedas yang menggugah selera.</p>
+                <a href="https://wa.me/6281234567890" class="btn btn-card" target="_blank" rel="noopener">Pesan</a>
+              </div>
+            </article>
+
+            <article class="menu-card" tabindex="0">
+              <div class="card-image-wrap">
+                <img src="assets/images/menu-fish-curry.jpg" alt="Fish curry, ikan dengan kuah kental dan bumbu khas" width="600" height="400" loading="lazy">
+                <div class="card-price-badge">
+                  <span class="badge-label">PRICE</span>
+                  <span class="badge-current">₹260</span>
+                  <span class="badge-old">₹300</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <p class="card-eyebrow" aria-hidden="true">Fish</p>
+                <h3 class="card-name">Fish Curry</h3>
+                <div class="card-rating" aria-label="Rating 4.1">
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star empty" aria-hidden="true">☆</span>
+                </div>
+                <p class="card-desc">Ikan segar yang dimasak dengan kuah kental dan bumbu khas Andhra, rasa asin-gurih yang segar.</p>
+                <a href="https://wa.me/6281234567890" class="btn btn-card" target="_blank" rel="noopener">Pesan</a>
+              </div>
+            </article>
+
+            <article class="menu-card" tabindex="0">
+              <div class="card-image-wrap">
+                <img src="assets/images/menu-dal-fry.jpg" alt="Dal fry, kacang merah dengan bumbu rempah dan tomat" width="600" height="400" loading="lazy">
+                <div class="card-price-badge">
+                  <span class="badge-label">PRICE</span>
+                  <span class="badge-current">₹160</span>
+                  <span class="badge-old">₹190</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <p class="card-eyebrow" aria-hidden="true">Dal</p>
+                <h3 class="card-name">Dal Fry</h3>
+                <div class="card-rating" aria-label="Rating 4.0">
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star empty" aria-hidden="true">☆</span>
+                </div>
+                <p class="card-desc">Kacang merah yang direbus dan ditumis dengan bumbu rempah, tomat, dan daun ketumbar segar.</p>
+                <a href="https://wa.me/6281234567890" class="btn btn-card" target="_blank" rel="noopener">Pesan</a>
+              </div>
+            </article>
+
+            <article class="menu-card" tabindex="0">
+              <div class="card-image-wrap">
+                <img src="assets/images/menu-naan-bread.jpg" alt="Naan bread, roti India yang dibakar dengan menteri dan bawang putih" width="600" height="400" loading="lazy">
+                <div class="card-price-badge">
+                  <span class="badge-label">PRICE</span>
+                  <span class="badge-current">₹60</span>
+                  <span class="badge-old">₹80</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <p class="card-eyebrow" aria-hidden="true">Bread</p>
+                <h3 class="card-name">Garlic Naan</h3>
+                <div class="card-rating" aria-label="Rating 4.5">
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star half" aria-hidden="true">★</span>
+                </div>
+                <p class="card-desc">Roti India yang dibakar dengan menteri dan bawang putih, tekstur lembut dan aroma wangi.</p>
+                <a href="https://wa.me/6281234567890" class="btn btn-card" target="_blank" rel="noopener">Pesan</a>
+              </div>
+            </article>
+
+            <article class="menu-card" tabindex="0">
+              <div class="card-image-wrap">
+                <img src="assets/images/menu-veg-biryani.jpg" alt="Vegetable biryani, nasi berbumbu dengan sayuran segar" width="600" height="400" loading="lazy">
+                <div class="card-price-badge">
+                  <span class="badge-label">PRICE</span>
+                  <span class="badge-current">₹240</span>
+                  <span class="badge-old">₹280</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <p class="card-eyebrow" aria-hidden="true">Veg</p>
+                <h3 class="card-name">Vegetable Biryani</h3>
+                <div class="card-rating" aria-label="Rating 4.2">
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star filled" aria-hidden="true">★</span>
+                  <span class="star half" aria-hidden="true">★</span>
+                </div>
+                <p class="card-desc">Nasi berbumbu khas Andhra dengan campuran sayuran segar dan rempah pilihan, cocok untuk vegetarian.</p>
+                <a href="https://wa.me/6281234567890" class="btn btn-card" target="_blank" rel="noopener">Pesan</a>
+              </div>
+            </article>
+          </div>
+
+          <button class="carousel-btn carousel-next" aria-label="Menu berikutnya">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="9" y1="18" x2="18" y2="12"/><line x1="9" y1="6" x2="18" y2="12"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Pemisah gelombang ke section member -->
+      <svg class="wave-top" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,40 Q180,80 360,40 T720,40 T1080,40 T1440,40 V60 H0 Z" fill="#F9F7F5"/>
+      </svg>
+    </section>
+
+    <!-- ===== KEANGGOTAAN MEMBER ===== -->
+    <section class="membership" id="member" aria-label="Keanggotaan member Kanigiri">
+      <div class="container">
+        <div class="membership-head">
+          <p class="eyebrow">Member</p>
+          <h2 class="section-title">Beli Tiap Hari, Makin Murah</h2>
+          <p class="section-sub">
+            Daftar menjadi member Kanigiri dan nikmati bonus harian, diskon bertingkat,
+            serta menu gratis setiap kali Anda memesan.
+          </p>
+        </div>
+
+        <ul class="benefit-grid">
+          <li class="benefit-card">
+            <span class="benefit-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M9 16l2 2 4-4"/></svg>
+            </span>
+            <h3 class="benefit-title">Bonus Harian</h3>
+            <p class="benefit-desc">Pesan setiap hari dan dapatkan dua kali lipat poin. Streak 7 hari berturut-turut mendapat bonus menu andalan gratis.</p>
+            <span class="benefit-meta">+2x Poin</span>
+          </li>
+
+          <li class="benefit-card">
+            <span class="benefit-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4L12 22l-9-9V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><line x1="7.5" y1="7.5" x2="7.51" y2="7.5"/></svg>
+            </span>
+            <h3 class="benefit-title">Diskon Bertingkat</h3>
+            <p class="benefit-desc">Semakin sering Anda belanja, semakin besar diskonnya. Naik level Silver, Gold, hingga Platinum secara otomatis.</p>
+            <span class="benefit-meta"> hingga 20%</span>
+          </li>
+
+          <li class="benefit-card">
+            <span class="benefit-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+            </span>
+            <h3 class="benefit-title">Voucher Menu</h3>
+            <p class="benefit-desc">Tukar 500 poin dengan satu menu andalan gratis untuk pesanan Anda berikutnya. Poin tidak pernah kedaluwarsa.</p>
+            <span class="benefit-meta">500 Poin</span>
+          </li>
+        </ul>
+
+        <div class="tier-strip" role="list" aria-label="Level keanggotaan dan besar diskon">
+          <div class="tier" role="listitem">
+            <p class="tier-name">Silver</p>
+            <p class="tier-discount">5%</p>
+            <p class="tier-cond">Mulai 5 pesan</p>
+          </div>
+          <div class="tier" role="listitem">
+            <p class="tier-name">Gold</p>
+            <p class="tier-discount">10%</p>
+            <p class="tier-cond">Mulai 20 pesan</p>
+          </div>
+          <div class="tier" role="listitem">
+            <p class="tier-name">Platinum</p>
+            <p class="tier-discount">20%</p>
+            <p class="tier-cond">Mulai 40 pesan</p>
+          </div>
+        </div>
+
+        <div class="membership-cta">
+          <a href="https://wa.me/6281234567890" class="btn btn-primary" target="_blank" rel="noopener">Daftar Member</a>
+          <a href="https://wa.me/6281234567890" class="btn btn-secondary" target="_blank" rel="noopener">Sudah Punya Akun? Login</a>
+        </div>
+      </div>
+
+      <!-- Pemisah gelombang ke footer -->
+      <svg class="wave-bottom" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,40 Q180,0 360,40 T720,40 T1080,40 T1440,40 V60 H0 Z" fill="#F4F2F4"/>
+      </svg>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="kontak">
+    <div class="footer-container">
+      <div class="footer-top">
+        <nav class="footer-nav">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#member">Member</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Return Policy</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-social">
+          <a href="#" aria-label="WhatsApp" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 12c0-4.9-3.9-8.8-8.8-8.8C8.3 3.2 4 7.1 4 12c0 4.9 3.9 8.8 8.8 8.8 4.9 0 8.8-3.9 8.8-8.8"/><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="17.5" x2="17.51" y2="17.5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer-copyright">
+        &copy; <span id="year"></span> Kanigiri — Taste of Andhra. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
